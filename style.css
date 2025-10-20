@@ -27,25 +27,6 @@ header{
 }
 header h1{ margin:0; font-size:1.25rem; }
 
-link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<!-- 基本 SEO -->
-<meta name="description" content="A one-page, responsive site explaining sea level rise: causes, effects, adaptation strategies, and a U.S. case study.">
-
-<!-- 社交分享卡片 (Open Graph / Twitter) -->
-<meta property="og:title" content="Rising Sea Levels">
-<meta property="og:description" content="Causes, effects, and adaptation—with a U.S. case study.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&auto=format&fit=crop">
-<meta property="og:url" content="https://你的站点地址">
-<meta name="twitter:card" content="summary_large_image">
-
-<!-- Favicon：不要用本地绝对路径，换成相对路径(把图片放进项目如 /icons/water-level.png) -->
-<link rel="icon" type="image/png" href="icons/water-level.png">
-
-<!-- 可选：系统暗色模式提示 -->
-<meta name="color-scheme" content="light dark">
 
 /* Desktop nav */
 .desktop-nav{
