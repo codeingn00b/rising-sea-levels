@@ -176,3 +176,18 @@ footer a:hover{ background:#fffbcc; }
   .option, .case, details{ background:#0f2638; border-color:#1f3c57; }
   footer{ background:#0b5cad; }
 }
+
+@media print{
+ 
+  header, .hamburger, .desktop-nav, .sidebar, #overlay, footer { display:none !important; }
+  details{ display:block; }
+  details > summary{ font-weight:700; }
+  body{ background:#fff; color:#000; }
+  main{ padding:0; }
+  .hero-img, picture{ display:none !important; }
+  .info-box{
+    box-shadow:none; border:1px solid #ccc; border-radius:6px;
+    width:100%; margin:12px 0; page-break-inside:avoid;
+  }
+  .compare{ font-size:12px; }
+}
